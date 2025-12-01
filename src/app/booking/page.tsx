@@ -15,7 +15,7 @@ export default function BookingPage() {
   return (
     <main className="bg-primary-dark min-h-screen">
       <Navigation />
-      <div className="pt-24">
+      <div className="pt-28 md:pt-24">
         <Container className="mb-6">
           <Link
             href="/"

@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
   return (
     <section
       id="home"
-      className="relative w-full h-screen overflow-hidden bg-ocean-gradient pt-20"
+      className="relative w-full h-screen overflow-hidden bg-ocean-gradient pt-28 md:pt-20"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -83,21 +83,21 @@ export const HeroSection: React.FC = () => {
             ))}
           </div>
         </motion.div>
-
-        {/* Scroll Indicator */}
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-accent-cyan"
-        >
-          <div className="flex flex-col items-center gap-2">
-            <span className="text-sm">Scroll to explore</span>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </div>
-        </motion.div>
       </Container>
+
+      {/* Scroll Indicator - centered using flexbox */}
+      <motion.div
+        animate={{ y: [0, 10, 0] }}
+        transition={{ duration: 2, repeat: Infinity }}
+        className="absolute bottom-8 inset-x-0 flex justify-center text-accent-cyan"
+      >
+        <div className="flex flex-col items-center gap-2">
+          <span className="text-sm">Scroll to explore</span>
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
+      </motion.div>
     </section>
   );
 };
