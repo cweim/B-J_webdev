@@ -12,7 +12,7 @@ export default function GalleryPage() {
   return (
     <main className="bg-primary-dark min-h-screen">
       <Navigation />
-      <div className="pt-28 md:pt-24">
+      <div className="pt-16 md:pt-24">
         <GallerySection />
       </div>
       <Footer />

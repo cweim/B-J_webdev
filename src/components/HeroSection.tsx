@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
   return (
     <section
       id="home"
-      className="relative w-full h-screen overflow-hidden bg-ocean-gradient pt-28 md:pt-20"
+      className="relative w-full h-screen overflow-hidden bg-ocean-gradient md:pt-20"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
