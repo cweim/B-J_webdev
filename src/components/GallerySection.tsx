@@ -11,56 +11,56 @@ const GALLERY_IMAGES = [
     src: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=800&auto=format&fit=crop',
     alt: 'Divers exploring vibrant coral reef',
     title: 'Coral Paradise',
-    location: 'Tioman Island',
+    location: 'Your house reef',
   },
   {
     id: 2,
     src: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop',
     alt: 'Sea turtle swimming underwater',
     title: 'Gentle Sea Turtle',
-    location: 'Tiger Rock',
+    location: 'Signature turtle site',
   },
   {
     id: 3,
     src: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=800&auto=format&fit=crop',
     alt: 'School of tropical fish in blue water',
     title: 'Tropical Fish School',
-    location: 'South Rock',
+    location: 'Drift dive alley',
   },
   {
     id: 4,
     src: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=800&auto=format&fit=crop',
     alt: 'Colorful reef with fish',
     title: 'Reef Exploration',
-    location: 'Beacon Rock',
+    location: 'Shallow macro reef',
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop',
     alt: 'Diver with underwater rock formations',
     title: 'Rock Formations',
-    location: 'Cathedral',
+    location: 'Cathedral-style swim-through',
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=800&auto=format&fit=crop',
     alt: 'Close-up of clownfish in anemone',
     title: 'Clownfish Home',
-    location: 'Coral Garden',
+    location: 'Coral garden',
   },
   {
     id: 7,
-    src: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=800&auto=format&fit=crop',
     alt: 'Diver with manta ray',
     title: 'Manta Ray Encounter',
-    location: 'Deep Blue',
+    location: 'Blue water site',
   },
   {
     id: 8,
-    src: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop',
     alt: 'Sunset view over ocean',
     title: 'Golden Hour',
-    location: 'Surface',
+    location: 'Surface interval',
   },
 ];
 
@@ -68,7 +68,7 @@ export const GallerySection: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<(typeof GALLERY_IMAGES)[0] | null>(null);
 
   return (
-    <section id="gallery" className="py-16 md:py-24 bg-primary-dark">
+    <section className="py-16 md:py-24 bg-primary-dark">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -81,7 +81,7 @@ export const GallerySection: React.FC = () => {
             Dive Gallery
           </h2>
           <p className="text-text-gray max-w-2xl">
-            Explore stunning moments captured during our diving adventures around Tioman Island.
+            Scenes from our boats, reefs, and guests underwater. Browse the grid or tap a photo to see it full size.
           </p>
         </motion.div>
 

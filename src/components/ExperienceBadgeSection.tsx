@@ -17,12 +17,10 @@ export const ExperienceBadgeSection: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Discover Tioman's Underwater Treasures
+              Start with a crew that knows these reefs
             </h2>
             <p className="text-text-gray leading-relaxed">
-              At B&J Diving Centre, we offer immersive diving experiences with pristine coral reefs,
-              abundant marine life, and world-class instruction. Feel the rush of exploring vibrant
-              underwater ecosystems with experienced guides who know Tioman Island like no one else.
+              Azure Depths combines experienced local guides with well-maintained boats and gear. From discover dives to specialty courses, we focus on safe, calm, and memorable days on the water.
             </p>
           </motion.div>
 
@@ -35,8 +33,8 @@ export const ExperienceBadgeSection: React.FC = () => {
             className="flex justify-center md:justify-end"
           >
             <div className="border-2 border-accent-cyan rounded-full px-8 md:px-12 py-8 text-center w-fit">
-              <div className="text-4xl md:text-5xl font-bold text-white">8+</div>
-              <div className="text-accent-cyan text-sm mt-2">Years Operating</div>
+              <div className="text-4xl md:text-5xl font-bold text-white">10+</div>
+              <div className="text-accent-cyan text-sm mt-2">Years guiding these waters</div>
             </div>
           </motion.div>
         </div>

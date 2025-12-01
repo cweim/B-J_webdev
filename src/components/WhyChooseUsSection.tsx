@@ -7,12 +7,12 @@ import { Container } from './ui/Container';
 import { CheckCircle2 } from 'lucide-react';
 
 const FEATURES = [
-  'PADI Certified Instructors',
-  'Small Group Sizes (4:1 ratio)',
-  'Safety Equipment Provided',
-  'Experienced Local Guides',
-  'Flexible Scheduling',
-  'Competitive Pricing',
+  'Fully responsive mobile design',
+  'Live form validation & notifications',
+  'Booking system with dynamic pricing',
+  'Photo gallery with lightbox modal',
+  'Contact form with email integration',
+  'Built with Next.js & Tailwind CSS',
 ];
 
 export const WhyChooseUsSection: React.FC = () => {
@@ -36,7 +36,7 @@ export const WhyChooseUsSection: React.FC = () => {
   };
 
   return (
-    <section className="py-16 md:py-24 bg-primary-dark">
+    <section id="about" className="py-16 md:py-24 bg-primary-dark">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -47,11 +47,10 @@ export const WhyChooseUsSection: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              About B&J Diving Centre
+              Why use this template?
             </h2>
             <p className="text-text-gray mb-8 leading-relaxed">
-              Based on the stunning Tioman Island, B&J Diving Centre is your gateway to Malaysia's most pristine underwater destinations.
-              With over 8 years of operating in these waters, we combine local expertise with international safety standards to create unforgettable diving experiences for everyone.
+              This template includes everything a water sports business needs: a responsive design, working booking forms with validation, a photo gallery, package management, and contact forms with live notifications. All interactions are fully functional and ready to customize.
             </p>
 
             {/* Features List */}
@@ -70,7 +69,7 @@ export const WhyChooseUsSection: React.FC = () => {
               ))}
             </motion.div>
 
-            <Button size="lg">Contact Us</Button>
+            <Button size="lg">Customize for your business</Button>
           </motion.div>
 
           {/* Right Images Grid */}
@@ -83,14 +82,14 @@ export const WhyChooseUsSection: React.FC = () => {
           >
             <div className="rounded-2xl overflow-hidden border-2 border-border-cyan">
               <img
-                src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=400&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=400&auto=format&fit=crop"
                 alt="School of colorful fish"
                 className="w-full h-64 md:h-80 object-cover hover:scale-110 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden border-2 border-border-cyan">
               <img
-                src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=400&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=400&auto=format&fit=crop"
                 alt="Coral reef with marine life"
                 className="w-full h-64 md:h-80 object-cover hover:scale-110 transition-transform duration-500"
               />

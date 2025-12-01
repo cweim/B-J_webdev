@@ -15,11 +15,11 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-xl font-bold text-accent-cyan">B&J</span>
-              <span className="text-xl font-bold text-white ml-1">Diving Centre</span>
+              <span className="text-xl font-bold text-accent-cyan">Azure</span>
+              <span className="text-xl font-bold text-white ml-1">Depths</span>
             </div>
             <p className="text-text-gray text-sm">
-              Experience the wonders of Tioman Island's underwater world with safety, expertise, and unforgettable memories.
+              Dive clear tropical water with a team that keeps groups small and safety first. Courses, guided dives, and specialty training available year-round.
             </p>
           </div>
 
@@ -28,27 +28,27 @@ export const Footer: React.FC = () => {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-text-gray text-sm">
               <li>
-                <Link href="#home" className="hover:text-accent-cyan transition-colors">
+                <Link href="/#home" className="hover:text-accent-cyan transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#packages" className="hover:text-accent-cyan transition-colors">
+                <Link href="/#packages" className="hover:text-accent-cyan transition-colors">
                   Packages
                 </Link>
               </li>
               <li>
-                <Link href="#gallery" className="hover:text-accent-cyan transition-colors">
+                <Link href="/gallery" className="hover:text-accent-cyan transition-colors">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="hover:text-accent-cyan transition-colors">
+                <Link href="/#about" className="hover:text-accent-cyan transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-accent-cyan transition-colors">
+                <Link href="/#contact" className="hover:text-accent-cyan transition-colors">
                   Contact
                 </Link>
               </li>
@@ -61,15 +61,15 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3 text-text-gray text-sm">
               <li className="flex items-center gap-2">
                 <Phone size={16} className="text-accent-cyan" />
-                +60 12 345 6789
+                +XX (0)123 456 789
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-accent-cyan" />
-                info@bjdivingcentre.com
+                hello@yourdivecentre.com
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={16} className="text-accent-cyan" />
-                Tioman Island, Malaysia
+                Your base location(s)
               </li>
             </ul>
           </div>
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
             <h4 className="text-white font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4">
               <Link
-                href="https://facebook.com/bjdivingcentre"
+                href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-dark border-2 border-accent-cyan flex items-center justify-center text-accent-cyan hover:bg-accent-cyan hover:text-primary-dark transition-colors"
@@ -87,7 +87,7 @@ export const Footer: React.FC = () => {
                 <Facebook size={18} />
               </Link>
               <Link
-                href="https://instagram.com/bjdivingcentre"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-dark border-2 border-accent-cyan flex items-center justify-center text-accent-cyan hover:bg-accent-cyan hover:text-primary-dark transition-colors"
@@ -102,8 +102,8 @@ export const Footer: React.FC = () => {
         <div className="border-t border-border-cyan mb-8" />
 
         {/* Bottom */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-text-gray text-sm">
-          <p>&copy; {currentYear} B&J Diving Centre. All rights reserved.</p>
+          <div className="flex flex-col md:flex-row justify-between items-center text-text-gray text-sm">
+          <p>&copy; {currentYear} Azure Depths Dive Centre. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-accent-cyan transition-colors">
               Privacy Policy

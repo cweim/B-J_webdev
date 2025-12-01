@@ -1,7 +1,7 @@
 import { Navigation } from '@/components/Navigation';
 import { HeroSection } from '@/components/HeroSection';
 import { DivePackagesSection } from '@/components/DivePackagesSection';
-import { GallerySection } from '@/components/GallerySection';
+import { GalleryPreviewSection } from '@/components/GalleryPreviewSection';
 import { ExperienceBadgeSection } from '@/components/ExperienceBadgeSection';
 import { WhyChooseUsSection } from '@/components/WhyChooseUsSection';
 import { ContactSection } from '@/components/ContactSection';
@@ -13,8 +13,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <DivePackagesSection />
-      <GallerySection />
-      <ExperienceBadgeSection />
+      <GalleryPreviewSection />
       <WhyChooseUsSection />
       <ContactSection />
       <Footer />
